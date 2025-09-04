@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>monprojet-batch</artifactId>
+    <artifactId>batch</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -20,12 +20,12 @@
     <dependencies>
         <dependency>
             <groupId>org.wagblin</groupId>
-            <artifactId>monprojet-application</artifactId>
+            <artifactId>application</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.wagblin</groupId>
-            <artifactId>monprojet-infrastructure</artifactId>
+            <artifactId>infrastructure</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

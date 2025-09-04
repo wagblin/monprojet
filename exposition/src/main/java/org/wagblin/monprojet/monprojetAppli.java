@@ -6,10 +6,10 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 @SpringBootApplication
-public class monprojetApplication {
+public class monprojetAppli {
     public static void main(String[] args) {
 
-        new SpringApplicationBuilder(monprojetApplication.class).run(args);
+        new SpringApplicationBuilder(monprojetAppli.class).run(args);
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
